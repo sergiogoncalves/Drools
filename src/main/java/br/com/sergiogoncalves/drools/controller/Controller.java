@@ -20,7 +20,7 @@ public class Controller {
 
         KieServices kieServices = KieServices.Factory.get();
 
-        Resource dt = ResourceFactory.newClassPathResource("static/Discount.xls");
+        Resource dt = ResourceFactory.newClassPathResource("static/Calculo.xls");
 
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem().write(dt);
 
@@ -60,4 +60,6 @@ public class Controller {
 
         return null;
     }
+
+
 }
