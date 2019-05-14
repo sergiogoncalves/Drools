@@ -20,7 +20,7 @@ public class Controller {
 
         KieServices kieServices = KieServices.Factory.get();
 
-        Resource dt = ResourceFactory.newClassPathResource("static/Calculo.xls");
+        Resource dt = ResourceFactory.newClassPathResource("static/Discount.xls");
 
         KieFileSystem kieFileSystem = kieServices.newKieFileSystem().write(dt);
 
