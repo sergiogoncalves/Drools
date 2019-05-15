@@ -23,10 +23,16 @@ public class Sandbox {
     static void staircase(int n) {
 
 
-        for (int i = 1; i <  n; i++) {
+        for (int i = 0; i <  n; i++) {
 
+            int j = 0;
 
+                do {
+                    System.out.print("#");
 
+                    j++;
+                }while (j <= i);
+            System.out.println();
         }
 
     }
